@@ -2,6 +2,7 @@
 
 ```bash
 ssh smarthome@192.168.85.208
+//smarthome为用户名，@后为ip地址
 password:smarthome
 ```
 
