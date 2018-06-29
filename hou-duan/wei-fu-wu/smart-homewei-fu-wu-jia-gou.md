@@ -118,75 +118,32 @@ CAS——单点登录认证
 * 每个资源服务server，都有与之对应的公共数据模块，该模块包括该资源服务的相关实体类及数据。
 
 
-## 6.居家养老模块—smarthome\_jjyl
+## 6.居家养老模块—smart-home-jjyl-**-
 
-* smart-home\_jjyl\_usercenter：居家养老用户中心
+* 居家养老所有相关资源服务，包括外部网关接口服务、内部子服务及公共方法
 
-* smart-home\_jjyl\_backmanager：居家养老后台管理
-
-* smarthome\_jjyl\_fridgesensor：冰箱传感器数据处理
-
-* smarthome\_jjyl\_gassensor：燃气传感器数据处理
-
-* smarthome\_jjyl\_dietsensor：饮食传感器数据处理
-
-* smarthome\_jjyl\_lamp:电灯数据处理（包括卧室、厨房、客厅、卫生间等）
-
-* smarthome\_jjyl\_mattresssensor：床垫传感器数据处理（包括睡眠、翻身、心率等信息）
-
-* smarthome\_jjyl\_sofasensor：沙发传感器数据处理
-
-* smarthome\_jjyl\_aircondition：空调数据处理
-
-* smarthome\_jjyl\_tv：电视数据处理
-
-* smarthome\_jjyl\_stoolsensor：马桶传感器数据处理
-
-* smarthome\_jjyl\_washsensor：洗澡传感器数据处理
-
-* smarthome\_jjyl\_hydrovalvesensor：水阀传感器数据处理
-
-* smarthome\_jjyl\_sos：sos呼救处理
-
-* smarthome\_jjyl\_tumblesensor：跌到检测传感器数据处理
-
-* smarthome\_jjyl\_notificationsensor：物品忘带提醒传感器数据处理
-
-* smarthome\_jjyl\_gps:gps定位数据
-
-* smarthome\_jjyl\_bloodglucose：血糖数据处理
-
-* smarthome\_jjyl\_bloodpressure：血压数据处理
-
-* smarthome\_jjyl\_temperature：体温数据处理
-
-* smarthome\_jjyl\_heartrate：心率数据处理
-
-* smarthome\_jjyl\_bmi：bmi数据处理
-
-* smarthome\_jjyl\_medicinebox：药盒数据处理
-
-* smarthome\_jjyl\_devicecontrol：设备控制
 
 ---
 
-## 7.养老机构模块—smart-home-yljg
+## 7.养老机构模块—smart-home-yljg-**-
 
-后期更新
+- 养老机构所有相关资源服务，包括外部网关接口服务、内部子服务及公共方法
 
-## 8.大数据平台分析模块—smart-home\-datacenter
+## 8.大数据平台分析模块—smart-home\-data-center-
 
-后期更新
+- 大数据分析平台相关服务
 
-## 9.消息推送模块—smart-home-notification
 
-用来推送到app、web及微信小程序端日常消息、异常报警、系统分析等信息
+## 9.消息推送模块—smart-home-notify-
 
-## 10.支付模块—smart-home-pay
+- 用来推送到app、web及微信小程序端日常消息、异常报警、系统分析等信息
+
+
+## 10.支付模块—smart-home-pay-
 
 用来提供支付功能，调用第三方平台支付接口（支付宝、微信）
 
-## 11.数据处理行为分析模块—smart-home\-machinelearning
+## 11.数据处理行为分析模块—smart-home\-ml-
 
 对不同模块采用机器学习的方式进行数据处理及行为分析，主要分为两个部分
 
@@ -194,7 +151,7 @@ CAS——单点登录认证
 
 * 综合老人各项指标数据（包括历史数据）进行行为分析等
 
-## 12.设备数据采集模块—smart-home-device-server
+## 12.设备数据采集模块—smart-home-device-
 
 该模块将不同传感器通过不同接口进行数据采集，获取数据
 
@@ -211,7 +168,7 @@ CAS——单点登录认证
 _**注：后期拓展**_
 
 ```
-12/13/14是开发可视化、流程化的拓展辅助，有助于后期开发，因此优先级最后
+13/14是开发可视化、流程化的拓展辅助，有助于后期开发，因此优先级最后
 ```
 
 
