@@ -112,7 +112,7 @@ CAS——单点登录认证
 
 * smarthome\_sm\_server:系统管理服务
 
-## 2.配置模块—smarthome\_configuration
+## 2.配置模块—smart-home-configure
 
 ## 3.用户登录模块—smarthome\_usrlogin
 
