@@ -12,7 +12,7 @@
 
 ## 2.SpringCloud组件架构
 
-
+![](/assets/import.png)
 
 ​工作流程：所有请求（包括网页、app等不同媒介）通过统一的API网关（**Zuul**）访问内部服务
 
