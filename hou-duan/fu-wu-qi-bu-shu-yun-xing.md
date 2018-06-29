@@ -95,19 +95,12 @@ docker tag auth-server:8762 registry.cn-hangzhou.aliyuncs.com/命名空间/仓�
 docker push registry.cn-hangzhou.aliyuncs.com/命名空间/仓库名:[镜像版本号]
 ```
 
-
-
 ## 3.服务器端下载镜像
 
 * 服务器端直接下载docker镜像
 
 ```
-进入服务器，输入如下命令
-
-
-从registry拉取镜像
-
-
+进入服务器，输入如下命令，从registry拉取镜像
 docker pull registry.cn-hangzhou.aliyuncs.com/命名空间/仓库名:[镜像版本号]
 ```
 
