@@ -65,15 +65,7 @@ CMD ["java","-jar","smart-home-auth-server-1.0-SNAPSHOT.jar"]
 * 镜像打包需要在dockerfile所在目录下
 
 ```
-$ sudo docker build -t 
-<
-你的镜像名
->
-:
-<
-tag
->
- .
+$ sudo docker build -t <你的镜像名>:<tag> .
 ```
 
 注：镜像名自己定义，后面的.必须要
