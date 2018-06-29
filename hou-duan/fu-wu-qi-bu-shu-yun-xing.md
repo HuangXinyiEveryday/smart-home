@@ -41,7 +41,7 @@ nohup java -jar smart-home-gps-server-1.0-SNAPSHOT.jar&
 
 ```
 ps -ef | grep java
-
+sudo kill -9 <进程号>
 ```
 
 # 二、建立为docker镜像
