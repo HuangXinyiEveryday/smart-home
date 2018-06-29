@@ -34,7 +34,7 @@ Java、Maven、SpringBoot、SpringCloud、Docker、Git
 
 * 使用阿里云短信服务，进行第三方短信平台发送；使用百度API接口
 
-## 2.SmartHome技术选型（可能会根据实际需求修改）
+## 2.SmartHome技术选型
 
 SpringBoot——基础构建框架，用于快速整合资源
 
