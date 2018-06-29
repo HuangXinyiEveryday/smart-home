@@ -97,24 +97,18 @@ git branch -D <branch_name>
 ## **恢复本地被删除的分支**
 
 ```
-git branch <
-branch_name
->
-<
-hash_val
->
+git branch <branch_name> <hash_val>
 ```
 
-**查看本地分支和远程分支**
+## **查看本地分支和远程分支**
 
 ```
 git branch//查看本地分支
 
-
 git branch -a//查看远程仓库和本地所有分支
 ```
 
-**创建分支**
+## **创建分支**
 
 ```
 $ git checkout -b 
