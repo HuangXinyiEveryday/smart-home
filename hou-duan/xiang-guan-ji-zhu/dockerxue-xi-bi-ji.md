@@ -4,7 +4,6 @@ Docker包括三个概念 镜像；容器；仓库
 
 ```bash
 docker pull 镜像名:特定版本
-
 #默认下载最新版本
 ```
 
@@ -18,11 +17,9 @@ service docker start
 
 ```bash
 #运行镜像为容器的命令
-
 docker run -d -p [本机端口]:[docker服务器端口] --name container-name image-name
 
 //容器不需要自己独立的ip和网卡
-
 docker run -d --net=host --name container-name image-name
 ```
 
@@ -30,13 +27,11 @@ docker run -d --net=host --name container-name image-name
 
 ```bash
 #查看本地镜像列表
-
 docker images
 
 #其中REPOSITORY是镜像名；TAG是软件版本，latest为最新版；IMAGE ID是当前镜像的唯一标识；CREATED是当前镜像创建时间；VIRTUAL SIZE是当前镜像的大小。
 
 #删除镜像
-
 docker rmi image-id
 ```
 
@@ -45,7 +40,7 @@ docker rmi image-id
 ```bash
 docker stop container-name/container-id 
 
-docker start container-name/container-id 
+docker start container-name/container-id
 ```
 
 #### Docker容器显示
@@ -61,15 +56,13 @@ docker ps
 #### Docker删除容器
 
 ```
-docker rm container-id 
+docker rm container-id
 ```
 
 #### Docker运行mysql实例
 
-```
+```bash
 # docker启动mysql
-
-
 docker run --name=smarthome-mysql -it -p 3306:3306 -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag
 ```
 
@@ -85,15 +78,11 @@ docker run --name=smarthome-mysql -it -p 3306:3306 -e MYSQL_ROOT_PASSWORD=my-sec
 
 ```
 #docker连接本地mysql
-
-
 docker run -it --link smarthome-mysql:mysql --rm mysql sh -c 'exec mysql -h"$MYSQL_PORT_3306_TCP_ADDR" -P"$MYSQL_PORT_3306_TCP_PORT" -uroot -p"$MYSQL_ENV_123456"'
 
 
 #docker连接远程mysql
-
-
-ocker run -it --rm mysql mysql -hsome.mysql.host -usome-mysql-user -p
+docker run -it --rm mysql mysql -hsome.mysql.host -usome-mysql-user -p
 ```
 
 #### Docker运行redis实例
@@ -123,6 +112,5 @@ mysql -uroot -p
 123456
 ```
 
-  
 
 
