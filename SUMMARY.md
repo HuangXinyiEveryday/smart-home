@@ -24,6 +24,9 @@
     * [PostMan使用](hou-duan/xiang-guan-ji-zhu/postmanshi-yong.md)
 * [功能需求](gong-neng-xu-qiu.md)
   * 养老机构信息管理平台功能需求
+  * 大数据展示平台
+  * 居家养老信息管理系统
+  * APP手机应用
 * [平台自动化](ping-tai-zi-dong-hua.md)
   * 前端开发平台
   * [微服务开发平台](ping-tai-zi-dong-hua/wei-fu-wu-kai-fa-ping-tai.md)
