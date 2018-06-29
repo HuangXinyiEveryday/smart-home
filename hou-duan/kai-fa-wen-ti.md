@@ -21,11 +21,7 @@ It's likely that neither a Result Type nor a Result Map was specified.] with roo
 
 * 查看主服务FeignClient的服务名和子服务application.yml服务名是否相同
 
-3.docker部署失败
-
-```
-存在问题：如果无法登录或push
-```
+3.docker如果无法登录或push
 
 ```bash
 更新下载osxkeychain
