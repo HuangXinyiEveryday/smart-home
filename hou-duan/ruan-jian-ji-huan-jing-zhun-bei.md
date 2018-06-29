@@ -46,5 +46,11 @@ Maven的核心是pom.xml，在pom.xml里可以配置Springboot以来
 </dependencies>
 ```
 
+```markdown
+这时Maven pom文件会继承spring-boot-starter-parent工程，声明一个或多个Starter poms依赖，所以在parent里面进行配置
+parent节点使用spring-boot-starter-parent，
+这是一个特殊的starter，提供了有用的Maven默认设置，同时提供了dependency-management节点
+```
+
 
 
