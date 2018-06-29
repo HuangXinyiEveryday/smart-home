@@ -1,3 +1,4 @@
-# My Awesome Book
+# smart-home项目
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+本文档从前端、后端等多个方面介绍smart-home的工作.
+
