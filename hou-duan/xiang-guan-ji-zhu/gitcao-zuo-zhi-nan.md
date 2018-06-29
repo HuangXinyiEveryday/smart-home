@@ -84,19 +84,13 @@ git push  <branch_name>
 **删除远程分支**
 
 ```
-git push origin -d 
-<
-branch_name
->
+git push -d <branch_name>
 ```
 
 **删除本地分支**
 
 ```
-git branch -D 
-<
-branch_name
->
+git branch -D <branch_name>
 ```
 
 **恢复本地被删除的分支**
