@@ -81,17 +81,10 @@ https://blog.csdn.net/u013096666/article/details/76522065
 
 ```
 登录阿里云docker
-
-
 docker login registry.cn-hangzhou.aliyuncs.com
-
-
-docker login --username=用户名 registry.cn-hangzhou.aliyuncs.com
-
+或者docker login --username=用户名 registry.cn-hangzhou.aliyuncs.com
 
 username 为阿里云账号
-
-
 password 为registery密码，初始密码为阿里云密码(可以修改)
 ```
 
