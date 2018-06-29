@@ -14,7 +14,7 @@ Java、Maven、SpringBoot、SpringCloud、Docker、Git
 
 * App、Web和微信端实现前后端分离技术
 
-* 前端使用Vue+Webpack技术
+* 前端使用Vue+Webpack+ngix技术
 
 * 服务端使用SpringCloud技术栈实现微服务架构
 
@@ -30,7 +30,7 @@ Java、Maven、SpringBoot、SpringCloud、Docker、Git
 
 * 使用Boot admin做服务监控指标
 
-* 使用Zipkin做调用链监控
+* 使用Feign做服务内部之间调用
 
 * 使用阿里云短信服务，进行第三方短信平台发送；使用百度API接口
 
