@@ -8,6 +8,8 @@ Java、Maven、SpringBoot、SpringCloud、Docker、Git
 
 # 三、SmartHome物理结构
 
+![](/assets/屏幕快照 2018-06-29 下午2.11.56.png)
+
 # 四、SmartHome技术栈选型
 
 ## 1.SmartHome架构说明
@@ -56,7 +58,7 @@ SpringDataJpa——微服务持久化框架
 
 SpringDataRedis——缓存框架
 
-ApacheShiro——安全框架
+Oauth2.0——安全框架
 
 SpringValidator——后端验证框架
 
@@ -255,8 +257,6 @@ _**注：后期拓展**_
 ```
 12/13/14是开发可视化、流程化的拓展辅助，有助于后期开发，因此优先级最后
 ```
-
-
 
 
 
