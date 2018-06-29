@@ -1,6 +1,6 @@
 # 一、连接服务器
 
-```
+```bash
 ssh smarthome@192.168.85.208
 password:smarthome
 ```
