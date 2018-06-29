@@ -6,6 +6,7 @@
   * [养老机构信息化管理平台](chapter1/yang-lao-ji-gou.md)
 * [后端](hou-duan.md)
   * [微服务架构及功能](hou-duan/wei-fu-wu.md)
+    * [概述](hou-duan/wei-fu-wu/gai-shu.md)
     * [smart-home微服务架构](hou-duan/wei-fu-wu/smart-homewei-fu-wu-jia-gou.md)
     * [smart-home微服务功能](hou-duan/wei-fu-wu/smart-homewei-fu-wu-gong-neng.md)
   * [微服务开发](hou-duan/wei-fu-wu-kai-fa.md)
