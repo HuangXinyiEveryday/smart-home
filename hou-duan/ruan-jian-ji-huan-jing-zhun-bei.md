@@ -30,7 +30,21 @@ Springboot可以和java的开发工具（例如eclipse、intellij）也可以独
 
 Maven的核心是pom.xml，在pom.xml里可以配置Springboot以来
 
+```java
+<!--Springboot依赖使用的groupid为org.springframework.boot-->
+<parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>1.5.1.RELEASE</version>
+</parent>
+<!--Spring-boot-starter-web提供web应用依赖-->
+<dependencies>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+</dependencies>
 ```
 
-```
+
 
