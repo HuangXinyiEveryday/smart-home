@@ -24,6 +24,7 @@
   * 养老机构信息管理平台功能需求
 * [平台自动化](ping-tai-zi-dong-hua.md)
   * 前端开发平台
-  * 微服务开发平台
-  * 服务器部署平台
+  * [微服务开发平台](ping-tai-zi-dong-hua/wei-fu-wu-kai-fa-ping-tai.md)
+  * [服务器部署运行平台](ping-tai-zi-dong-hua/fu-wu-qi-bu-shu-ping-tai.md)
+  * 服务器搭建平台
 
