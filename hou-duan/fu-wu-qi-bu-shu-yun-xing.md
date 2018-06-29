@@ -54,29 +54,11 @@ sudo kill -9 <进程号>
 
 ```
 FROM java:8
-
-
-​
-
-
 WORKDIR /code
-
-
 #jar包一般在target目录下
-
-
 COPY ./target/smart-home-auth-server-1.0-SNAPSHOT.jar /code
-
-
 #需要和yml文件的端口号一致
-
-
 EXPOSE 8762
-
-
-​
-
-
 CMD ["java","-jar","smart-home-auth-server-1.0-SNAPSHOT.jar"]
 ```
 
