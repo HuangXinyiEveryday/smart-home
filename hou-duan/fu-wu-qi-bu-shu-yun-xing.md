@@ -1,6 +1,10 @@
 # 一、连接服务器
 
-# 一、本地或服务器打包jar包
+```
+
+```
+
+# 二、本地或服务器打包jar包
 
 ## 1.项目打包
 
@@ -36,8 +40,6 @@ nohup java -jar smart-home-gps-server-1.0-SNAPSHOT.jar
 ```
 //进入需要拷贝的文件目录下，直接拷贝文件到远程服务器tmp目录下(默认只有tmp目录下有权限) scp DoorContact20180625.sql smarthome@192.168.85.208:/tmp
 ```
-
-
 
 # 二、建立为docker镜像
 
@@ -174,6 +176,5 @@ docker pull registry.cn-hangzhou.aliyuncs.com/命名空间/仓库名:[镜像版�
 docker run -d --net=host --name container-name image-name
 ```
 
-  
 
 
