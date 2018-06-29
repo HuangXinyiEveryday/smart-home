@@ -82,13 +82,13 @@ CAS——单点登录认证
 
   Hystrix（超时熔断）、Turbine（汇总系统内多个服务的数据）、Eureka（服务注册）
 
-  Ribbon\(负载均衡\)、BootAdmin（服务监控）、Zipkin（调用链监控）
+  Ribbon\(负载均衡\)、BootAdmin（服务监控）、
 
-  OAuht2（安全认证）、JWT（前端安全认证）、Hibernate/Mybatis（持久层框架）
+  OAuht2（安全认证）、JWT（前端安全认证）、Mybatis（持久层框架）
 
   Mapper3、PageHelper、Security
 
-  Mysql\(数据库）、Redis（数据库功能））、,MQ（消息服务）
+  Mysql\(数据库）、Redis（数据库功能））,MQ（消息服务）
 
   zookeeper（分布式协调服务）、elastic-job（分布式定时任务框架）、mail（邮件服务）
 
