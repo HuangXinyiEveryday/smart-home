@@ -52,5 +52,7 @@ parent节点使用spring-boot-starter-parent
 这是一个特殊的starter，提供了有用的Maven默认设置，同时提供了dependency-management节点
 ```
 
+## 2 新增具体.java代码
 
+在src/main/java新建一个java文件
 
