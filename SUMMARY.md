@@ -8,7 +8,7 @@
     * [smart-home微服务功能](hou-duan/wei-fu-wu/smart-homewei-fu-wu-gong-neng.md)
   * 微服务开发
     * [软件及环境准备](hou-duan/ruan-jian-ji-huan-jing-zhun-bei.md)
-    * 相关技术
+    * [相关技术](hou-duan/xiang-guan-ji-zhu.md)
     * 服务器部署运行
     * 新增资源服务
     * 开发问题
