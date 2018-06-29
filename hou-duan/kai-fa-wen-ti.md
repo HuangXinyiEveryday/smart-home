@@ -23,5 +23,20 @@ It's likely that neither a Result Type nor a Result Map was specified.] with roo
 
 3.docker部署失败
 
+```
+存在问题：如果无法登录或push
+```
+
+```bash
+更新下载osxkeychain
+https://github.com/docker/docker-credential-helpers/releases 
+下载后的osxkeychain解压后，双击运行后，移动到/usr/local/bin文件夹下
+
+mac:
+cd ~/Downloads
+mv docker-credential-osxkeychain /usr/local/bin
+chmod 555 /usr/local/bin/docker-credential-osxkeychain
+```
+
 
 
