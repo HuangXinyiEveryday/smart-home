@@ -78,7 +78,6 @@ $ sudo docker build -t <你的镜像名>:<tag> .
 添加命名空间和仓库名
 参考博客：https://blog.csdn.net/ximenghappy/article/details/66971035
 https://blog.csdn.net/u013096666/article/details/76522065
-
 ```
 
 ```
@@ -96,28 +95,15 @@ docker tag auth-server:8762 registry.cn-hangzhou.aliyuncs.com/命名空间/仓�
 docker push registry.cn-hangzhou.aliyuncs.com/命名空间/仓库名:[镜像版本号]
 ```
 
-```
+```bash
 存在问题：如果无法登录或push
-
-
 更新下载osxkeychain
-
-
 https://github.com/docker/docker-credential-helpers/releases 
-
-
 下载后的osxkeychain解压后，双击运行后，移动到/usr/local/bin文件夹下
 
-
 mac:
-
-
 cd ~/Downloads
-
-
 mv docker-credential-osxkeychain /usr/local/bin
-
-
 chmod 555 /usr/local/bin/docker-credential-osxkeychain
 ```
 
