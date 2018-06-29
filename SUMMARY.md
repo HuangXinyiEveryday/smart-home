@@ -15,7 +15,7 @@
       * [Mysql指令](hou-duan/xiang-guan-ji-zhu/mysqlzhi-ling.md)
     * [服务器部署运行](hou-duan/fu-wu-qi-bu-shu-yun-xing.md)
     * 新增资源服务
-    * 开发问题
+    * [开发问题](hou-duan/kai-fa-wen-ti.md)
   * [微服务使用](hou-duan/fu-wu-qi.md)
     * [服务部署](hou-duan/fu-wu-qi/fu-wu-qi-fen-pei.md)
     * [前后端接口](hou-duan/fu-wu-qi/qian-hou-duan-jie-kou.md)
