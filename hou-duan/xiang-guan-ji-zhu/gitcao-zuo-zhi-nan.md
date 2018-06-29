@@ -40,14 +40,12 @@ The key's randomart image is:
 ```
 找到文件id_rsa.pub文件，拷贝ssh
 
-
 在git用户设置中，找到ssh密钥，添加即可
-
 
 可以克隆或者push一个仓库测试是否成功
 ```
 
-2.git常用命令
+# 2.git常用命令
 
 **创建版本库**
 
