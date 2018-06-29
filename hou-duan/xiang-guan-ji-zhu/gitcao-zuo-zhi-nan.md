@@ -124,7 +124,7 @@ $ git checkout <branch_name>
 git checkout <branch_name>
 ```
 
-**推送本地分支到远程分支**
+## **推送本地分支到远程分支**
 
 ```
 //远程已有remote_branch分支并且已经关联本地分支local_branch且本地已经切换到local_branch
