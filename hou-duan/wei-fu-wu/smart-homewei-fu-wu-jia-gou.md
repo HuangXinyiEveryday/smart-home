@@ -1,6 +1,10 @@
-# 一、准备工作（涉及技术）
+# 一、准备工作
 
 Java、Maven、SpringBoot、SpringCloud
+
+Docker
+
+Git
 
 # 二、SmartHome功能架构
 
