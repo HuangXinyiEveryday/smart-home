@@ -1,7 +1,8 @@
 # 一、连接服务器
 
 ```
-
+ssh smarthome@192.168.85.208
+password:smarthome
 ```
 
 # 二、本地或服务器打包jar包
