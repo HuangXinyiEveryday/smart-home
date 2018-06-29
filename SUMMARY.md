@@ -6,7 +6,7 @@
   * [微服务架构及功能](hou-duan/wei-fu-wu.md)
     * smart-home微服务架构
     * [smart-home微服务功能](hou-duan/wei-fu-wu/smart-homewei-fu-wu-gong-neng.md)
-  * 微服务开发
+  * [微服务开发](hou-duan/wei-fu-wu-kai-fa.md)
     * [软件及环境准备](hou-duan/ruan-jian-ji-huan-jing-zhun-bei.md)
     * [服务器部署运行](hou-duan/fu-wu-qi-bu-shu-yun-xing.md)
     * [新增资源服务](hou-duan/xin-zeng-zi-yuan-fu-wu.md)
@@ -22,4 +22,8 @@
     * [PostMan使用](hou-duan/xiang-guan-ji-zhu/postmanshi-yong.md)
 * [功能需求](gong-neng-xu-qiu.md)
   * 养老机构信息管理平台功能需求
+* [平台自动化](ping-tai-zi-dong-hua.md)
+  * 前端开发平台
+  * 微服务开发平台
+  * 服务器部署平台
 
