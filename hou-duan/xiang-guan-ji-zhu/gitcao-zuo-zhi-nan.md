@@ -79,6 +79,7 @@ git push -u  <branch_name>
 
 ```
 git push  <branch_name>
+git push
 ```
 
 ## **删除远程分支**
