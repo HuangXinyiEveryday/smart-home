@@ -11,7 +11,7 @@
     * [相关技术](hou-duan/xiang-guan-ji-zhu.md)
       * [Docker容器](hou-duan/xiang-guan-ji-zhu/dockerxue-xi-bi-ji.md)
       * [Git操作指南](hou-duan/xiang-guan-ji-zhu/gitcao-zuo-zhi-nan.md)
-      * Linux命令
+      * [Linux命令](hou-duan/xiang-guan-ji-zhu/linuxming-ling.md)
       * Mysql指令
     * 服务器部署运行
     * 新增资源服务
