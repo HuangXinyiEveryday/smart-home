@@ -4,7 +4,11 @@ Java、Maven、SpringBoot、SpringCloud、Docker、Git
 
 # 二、SmartHome功能架构
 
+![](/assets/屏幕快照 2018-06-29 下午2.07.46.png)
+
 # 三、SmartHome物理结构
+
+
 
 # 四、SmartHome技术栈选型
 
