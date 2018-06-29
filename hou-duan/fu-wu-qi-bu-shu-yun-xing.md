@@ -23,14 +23,9 @@ mvn clean package -Dmaven.test.skip=true
 
 进入想要运行的服务的jar包目录下， 一般会自动生成target的目录下有jar包
 
-```
-//使用nohup和
-&
-，当终端关闭后程序还是可以运行
-
-
-nohup java -jar smart-home-gps-server-1.0-SNAPSHOT.jar
-&
+```markdown
+//使用nohup和&，当终端关闭后程序还是可以运行
+nohup java -jar smart-home-gps-server-1.0-SNAPSHOT.jar&
 ```
 
 * #### 本地打包上传服务器运行
