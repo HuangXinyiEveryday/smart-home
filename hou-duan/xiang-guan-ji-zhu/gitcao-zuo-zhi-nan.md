@@ -118,7 +118,7 @@ $ git checkout <branch_name>
 就可以在当前分支执行增加文件的工作
 ```
 
-**切换当前分支**
+## **切换当前分支**
 
 ```
 git checkout 
