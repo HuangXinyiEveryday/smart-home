@@ -72,7 +72,7 @@ git clone -b <branch_name> <git上面SSH/HTTP地址 **.git>
 ```
 git remote add origin <git上面SSH/HTTP地址 **.git>
 
-git push -u origin <branch_name>
+git push -u  <branch_name>
 ```
 
 注释：我们第一次推送`master`分支时，加上了`-u`参数，Git不但会把本地的`master`分支内容推送的远程新的`master`分支，还会把本地的`master`分支和远程的`master`分支关联起来，在以后的推送或者拉取时就可以简化命令。
@@ -81,23 +81,22 @@ git push -u origin <branch_name>
 git push  <branch_name>
 ```
 
-**删除远程分支**
+## **删除远程分支**
 
 ```
 git push -d <branch_name>
 ```
 
-**删除本地分支**
+## **删除本地分支**
 
 ```
 git branch -D <branch_name>
 ```
 
-**恢复本地被删除的分支**
+## **恢复本地被删除的分支**
 
 ```
-git branch 
-<
+git branch <
 branch_name
 >
 <
