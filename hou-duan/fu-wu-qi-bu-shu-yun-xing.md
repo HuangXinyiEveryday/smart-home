@@ -70,11 +70,10 @@ $ sudo docker build -t <你的镜像名>:<tag> .
 
 注：镜像名自己定义，后面的.必须要
 
-* 打包的镜像发布到docker服务器上（
+* 打包的镜像发布到docker服务器上
 
 ```
-推送到阿里云docker/docker hub，阿里云注册
-
+推送到阿里云docker或docker hub，需要进行阿里云或hub注册（hub为国外服务器）
 
 参考博客：https://blog.csdn.net/ximenghappy/article/details/66971035
 
