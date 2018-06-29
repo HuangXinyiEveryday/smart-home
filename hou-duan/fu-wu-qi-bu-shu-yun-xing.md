@@ -39,6 +39,10 @@ nohup java -jar smart-home-gps-server-1.0-SNAPSHOT.jar&
 
 注：服务器重新运行同一个服务jar包，需要使用命令kill杀死原有jar进程，才可以重新运行，否则端口被占用无法成功
 
+```
+
+```
+
 # 二、建立为docker镜像
 
 ## 1.项目打包（同上）
