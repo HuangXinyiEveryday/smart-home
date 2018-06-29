@@ -13,7 +13,7 @@
       * [Git操作指南](hou-duan/xiang-guan-ji-zhu/gitcao-zuo-zhi-nan.md)
       * [Linux命令](hou-duan/xiang-guan-ji-zhu/linuxming-ling.md)
       * [Mysql指令](hou-duan/xiang-guan-ji-zhu/mysqlzhi-ling.md)
-    * 服务器部署运行
+    * [服务器部署运行](hou-duan/fu-wu-qi-bu-shu-yun-xing.md)
     * 新增资源服务
     * 开发问题
   * [微服务使用](hou-duan/fu-wu-qi.md)
