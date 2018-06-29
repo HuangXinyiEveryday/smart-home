@@ -37,9 +37,7 @@ nohup java -jar smart-home-gps-server-1.0-SNAPSHOT.jar&
  scp DoorContact20180625.sql smarthome@192.168.85.208:/tmp
 ```
 
-注：服务器重新运行jar包，需要使用命令kill杀死原有jar进程，才可以重新运行，否则端口被占用无法成功
-
-
+注：服务器重新运行同一个服务jar包，需要使用命令kill杀死原有jar进程，才可以重新运行，否则端口被占用无法成功
 
 # 二、建立为docker镜像
 
