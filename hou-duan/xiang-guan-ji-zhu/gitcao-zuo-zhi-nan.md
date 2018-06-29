@@ -111,28 +111,11 @@ git branch -a//查看远程仓库和本地所有分支
 ## **创建分支**
 
 ```
-$ git checkout -b 
-<
-branch_name
->
- //创建并切换到当前分支
-
-
+$ git checkout -b <branch_name>//创建并切换到当前分支
 等同于
 
-
-$ git branch 
-<
-branch_name
->
-
-
-$ git checkout 
-<
-branch_name
->
-
-
+$ git branch <branch_name>
+$ git checkout <branch_name>
 就可以在当前分支执行增加文件的工作
 ```
 
