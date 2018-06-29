@@ -33,7 +33,8 @@ nohup java -jar smart-home-gps-server-1.0-SNAPSHOT.jar&
 上传jar包到服务器（linux上传文件到远程服务器）
 
 ```
-//进入需要拷贝的文件目录下，直接拷贝文件到远程服务器tmp目录下(默认只有tmp目录下有权限) scp DoorContact20180625.sql smarthome@192.168.85.208:/tmp
+//进入需要拷贝的文件目录下，直接拷贝文件到远程服务器tmp目录下(默认只有tmp目录下有权限)
+ scp DoorContact20180625.sql smarthome@192.168.85.208:/tmp
 ```
 
 # 二、建立为docker镜像
