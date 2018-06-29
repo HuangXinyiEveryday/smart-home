@@ -137,7 +137,7 @@ git push -u origin/remote_branch
 git push origin local_branch:remote_branch
 ```
 
-**分支合并**
+## **分支合并**
 
 ```
 //进入需要推送的分支
