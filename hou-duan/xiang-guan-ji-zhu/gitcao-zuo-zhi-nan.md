@@ -121,10 +121,7 @@ $ git checkout <branch_name>
 ## **切换当前分支**
 
 ```
-git checkout 
-<
-branch_name
->
+git checkout <branch_name>
 ```
 
 **推送本地分支到远程分支**
