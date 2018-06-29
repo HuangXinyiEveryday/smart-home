@@ -100,59 +100,29 @@ CAS——单点登录认证
 
 # 五、SmartHome项目模块划分
 
-## 1.服务管理模块—smarthome\_sm
+## 1.配置模块—smart-home-configure
 
-* smarthome\_sm\_admin:系统管理后台
+- 进行统一资源配置，包括服务器地址、网关地址、安全等相关服务配置
 
-* smarthome\_sm\_api:系统服务对外接口
+## 2.认证授权模块—smart-home-auth-server
 
-* smarthome\_sm\_api\_feign:基于Spring Cloud Feign的调用实现
+* 实现用户认证授权
+* 实现用户登录注册，角色权限分配
 
-* smarthome\_sm\_core:系统管理核心
-
-* smarthome\_sm\_server:系统管理服务
-
-## 2.配置模块—smart-home-configure
-
-## 3.用户登录模块—smarthome\_usrlogin
-
-* smarthome\_usrlogin\_client 客户端jar包，用于集成到需要CAS授权的系统
-
-* smarthome\_usrlogin\_server CAS服务端，单独部署，用于完成用户的登录，进入主界面功能
-
-* smarthome\_usrlogin\_manager CAS服务管理，用于管理授权服务等
-
-## 4.公共模块—smart-home-common
+## 3.公共模块—smart-home-common
 
 * 公共数据，包括实体类、常量数据
 
-## 5.接口模块—smarthome\_api
+## 5.资源服务公共模块—smart-home-**-common
 
-* smarthome\_api\_kitchen:厨房接口
+* 每个资源服务server，都有与之对应的公共数据模块，该模块包括该资源服务的相关实体类及数据。
 
-* smarthome\_api\_livingroom:卧室接口
-
-* smarthome\_api\_sleep:睡眠接口
-
-* smarthome\_api\_bathroom:卫生间接口
-
-* smarthome\_api\_healthy:生理指标接口
-
-* smarthome\_api\_danger：危险隐患接口
-
-* smarthome\_api\_notification：物品报警接口
-
-* smarthome\_api\_abnormal：异常指标接口
-
-* smarthome\_api\_healthyreport：健康报告接口
-
-* smarthome\_api\_gps：gps数据接口
 
 ## 6.居家养老模块—smarthome\_jjyl
 
-* smarthome\_jjyl\_usercenter：居家养老用户中心
+* smart-home\_jjyl\_usercenter：居家养老用户中心
 
-* smarthome\_jjyl\_backmanager：居家养老后台管理
+* smart-home\_jjyl\_backmanager：居家养老后台管理
 
 * smarthome\_jjyl\_fridgesensor：冰箱传感器数据处理
 
@@ -200,23 +170,23 @@ CAS——单点登录认证
 
 ---
 
-## 7.养老机构模块—smarthome\_yljg
+## 7.养老机构模块—smart-home-yljg
 
 后期更新
 
-## 8.大数据平台分析模块—smarthome\_datacenter
+## 8.大数据平台分析模块—smart-home\-datacenter
 
 后期更新
 
-## 9.消息推送模块—smarthome\_notification
+## 9.消息推送模块—smart-home-notification
 
 用来推送到app、web及微信小程序端日常消息、异常报警、系统分析等信息
 
-## 10.支付模块—smarthome\_pay
+## 10.支付模块—smart-home-pay
 
 用来提供支付功能，调用第三方平台支付接口（支付宝、微信）
 
-## 11.数据处理行为分析模块—smarthome\_machinelearning
+## 11.数据处理行为分析模块—smart-home\-machinelearning
 
 对不同模块采用机器学习的方式进行数据处理及行为分析，主要分为两个部分
 
@@ -224,29 +194,17 @@ CAS——单点登录认证
 
 * 综合老人各项指标数据（包括历史数据）进行行为分析等
 
-```
-注：7、8另外两个需要开发的系统
+## 12.设备数据采集模块—smart-home-device-server
 
+该模块将不同传感器通过不同接口进行数据采集，获取数据
 
- 9、10为后期需要开发的服务模块
-
-
- 11是机器学习核心模块
-```
-
-## 12.设备数据采集模块—smarthome\_datacollect
-
-涉及将硬件数据采集到数据库，后期使用模块化、可视化方式进行开发
-
-_**注:后一阶段工作**（涉及具体设计工作）_
-
-## 13.工作流模块—smarthome\_bpm
+## 13.工作流模块—smart-home\-workflow
 
 用来对不同微服务进行工作流程、步骤及逻辑的串联，保证系统获取有效信息，实现功能
 
 **注：主要是用来实现后台工作流串联（后期可以使用可视化的方式进行编程开发）**
 
-## 14.内容管理模块—smarthome\_cms
+## 14.内容管理模块—smart-home\-cms
 
 前端网站开发模块，用来加速网站开发，通过提供大量固定的模板减少开发人员开发时间，即使用可视化的方式辅助开发人员进行前端网站的开发。
 
