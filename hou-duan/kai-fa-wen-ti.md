@@ -21,5 +21,7 @@ It's likely that neither a Result Type nor a Result Map was specified.] with roo
 
 * 查看主服务FeignClient的服务名和子服务application.yml服务名是否相同
 
+3.docker部署失败
+
 
 
