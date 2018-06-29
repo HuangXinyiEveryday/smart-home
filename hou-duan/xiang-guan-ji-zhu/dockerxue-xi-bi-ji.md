@@ -28,7 +28,6 @@ docker run -d --net=host --name container-name image-name
 ```bash
 #查看本地镜像列表
 docker images
-
 #其中REPOSITORY是镜像名；TAG是软件版本，latest为最新版；
 IMAGE ID是当前镜像的唯一标识；CREATED是当前镜像创建时间；VIRTUAL SIZE是当前镜像的大小。
 
