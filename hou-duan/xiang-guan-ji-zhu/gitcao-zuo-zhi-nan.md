@@ -1,8 +1,8 @@
-# 1.git公钥配置
+### 1.git公钥配置
 
 想要本地推送到远程仓库或者克隆仓库，需要ssh密钥
 
-## **查看ssh**
+#### **查看ssh**
 
 ```bash
 查看电脑是否存在id_rsa.pub
@@ -13,7 +13,7 @@ ls
 id_rsa  id_rsa.pub
 ```
 
-## **创建ssh**
+#### **创建ssh**
 
 ```
 ssh-keygen -t rsa -C "****"//***为注释文字
@@ -35,7 +35,7 @@ The key's randomart image is:
 此时创建ssh成功
 ```
 
-## **添加ssh到git**
+#### **添加ssh到git**
 
 ```
 找到文件id_rsa.pub文件，拷贝ssh
@@ -45,9 +45,9 @@ The key's randomart image is:
 可以克隆或者push一个仓库测试是否成功
 ```
 
-# 2.git常用命令
+### 2.git常用命令
 
-## **创建版本库**
+#### **创建版本库**
 
 ```
 git init
@@ -57,7 +57,7 @@ git add <file_name>
 git commit -m "***"//说明修改内容
 ```
 
-## **仓库克隆**
+#### **仓库克隆**
 
 ```
 git clone <git上面SSH/HTTP地址 **.git>
@@ -67,7 +67,7 @@ git clone -b <branch_name> <git上面SSH/HTTP地址 **.git>
 //克隆特定分支
 ```
 
-## **远程推送**
+#### **远程推送**
 
 ```
 git remote add origin <git上面SSH/HTTP地址 **.git>
@@ -82,25 +82,25 @@ git push  <branch_name>
 或者git push
 ```
 
-## **删除远程分支**
+#### **删除远程分支**
 
 ```
 git push -d <branch_name>
 ```
 
-## **删除本地分支**
+#### **删除本地分支**
 
 ```
 git branch -D <branch_name>
 ```
 
-## **恢复本地被删除的分支**
+#### **恢复本地被删除的分支**
 
 ```
 git branch <branch_name> <hash_val>
 ```
 
-## **查看本地分支和远程分支**
+#### **查看本地分支和远程分支**
 
 ```
 git branch//查看本地分支
@@ -108,7 +108,7 @@ git branch//查看本地分支
 git branch -a//查看远程仓库和本地所有分支
 ```
 
-## **创建分支**
+#### **创建分支**
 
 ```
 $ git checkout -b <branch_name>//创建并切换到当前分支
@@ -118,13 +118,13 @@ $ git checkout <branch_name>
 就可以在当前分支执行增加文件的工作
 ```
 
-## **切换当前分支**
+#### **切换当前分支**
 
 ```
 git checkout <branch_name>
 ```
 
-## **推送本地分支到远程分支**
+#### **推送本地分支到远程分支**
 
 ```
 //远程已有remote_branch分支并且已经关联本地分支local_branch且本地已经切换到local_branch
@@ -137,7 +137,7 @@ git push -u origin/remote_branch
 git push origin local_branch:remote_branch
 ```
 
-## **分支合并**
+#### **分支合并**
 
 ```
 //进入需要推送的分支
