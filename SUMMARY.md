@@ -2,6 +2,8 @@
 
 * [Introduction](README.md)
 * [前端](chapter1.md)
+  * vue框架
+  * [养老机构信息化管理平台](chapter1/yang-lao-ji-gou.md)
 * [后端](hou-duan.md)
   * [微服务架构及功能](hou-duan/wei-fu-wu.md)
     * smart-home微服务架构
