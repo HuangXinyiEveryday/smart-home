@@ -10,7 +10,7 @@
     * [软件及环境准备](hou-duan/ruan-jian-ji-huan-jing-zhun-bei.md)
     * [相关技术](hou-duan/xiang-guan-ji-zhu.md)
       * [Docker容器](hou-duan/xiang-guan-ji-zhu/dockerxue-xi-bi-ji.md)
-      * Git操作指南
+      * [Git操作指南](hou-duan/xiang-guan-ji-zhu/gitcao-zuo-zhi-nan.md)
       * Linux命令
       * Mysql指令
     * 服务器部署运行
