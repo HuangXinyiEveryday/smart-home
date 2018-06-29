@@ -14,8 +14,6 @@ password:smarthome
 
 ```
 //可在本地打包，也可在服务器打包(保证代码最新)
-
-
 mvn clean package -Dmaven.test.skip=true
 ```
 
