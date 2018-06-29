@@ -29,29 +29,19 @@ source sql路径
 
 ```
 #1.将宿主机上的数据sql复制到容器的文件中
-
-
 docker cp 本机sql路径 容器名:容器保存sql路径
-
-
-例如 docker cp /Users/x/Desktop/ProjectCode/smart-home/smart-home-auth-server/Dump20180604.sql smarthome-mysql:/opt/Dump20180604.sql
+例如 docker cp /Users/x/Desktop/ProjectCode/smart-home/smart-home-auth-server/Dump20180604.sql 
+smarthome-mysql:/opt/Dump20180604.sql
 
 
 #2.进入容器
-
-
 docker exec -it 容器名 bash
 
-
 #3.登录容器内的mysql数据库
-
-
 mysql -uroot -p123456
 
 
 #4.执行sql脚本
-
-
 source 容器保存sql路径
 ```
 
@@ -61,6 +51,5 @@ source 容器保存sql路径
 use 数据库名;
 ```
 
-  
 
 
