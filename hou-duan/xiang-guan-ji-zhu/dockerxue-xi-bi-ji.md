@@ -76,9 +76,10 @@ docker run --name=smarthome-mysql -it -p 3306:3306 -e MYSQL_ROOT_PASSWORD=my-sec
 
 * -p 3306:3306：表示在这个容器中使用3306端口\(第二个\)映射到本机的端口号也为3306\(第一个\)
 
-```
+```bash
 #docker连接本地mysql
-docker run -it --link smarthome-mysql:mysql --rm mysql sh -c 'exec mysql -h"$MYSQL_PORT_3306_TCP_ADDR" -P"$MYSQL_PORT_3306_TCP_PORT" -uroot -p"$MYSQL_ENV_123456"'
+docker run -it --link smarthome-mysql:mysql --rm mysql sh -c 'exec 
+mysql -h"$MYSQL_PORT_3306_TCP_ADDR" -P"$MYSQL_PORT_3306_TCP_PORT" -uroot -p"$MYSQL_ENV_123456"'
 
 
 #docker连接远程mysql
@@ -87,28 +88,19 @@ docker run -it --rm mysql mysql -hsome.mysql.host -usome-mysql-user -p
 
 #### Docker运行redis实例
 
-```
+```bash
 #docker启动redis
-
-
 docker run --name smarthome-redis -p 6379:6379 -d redis:tag
 ```
 
 #### Dokcer进入Mysql
 
-```
+```bash
 #2.进入容器
-
-
 docker exec -it 容器名 bash
 
-
 #3.登录容器内的mysql数据库
-
-
 mysql -uroot -p
-
-
 123456
 ```
 
