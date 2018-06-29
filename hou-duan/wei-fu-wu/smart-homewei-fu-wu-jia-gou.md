@@ -72,11 +72,11 @@ CAS——单点登录认证
 
 ## 3.SmartHome技术栈
 
-* 前端
+* ### 前端
 
   VUE.js
 
-* 服务端（JAVA）
+* ### 服务端（JAVA）
 
   SpringCloud、Zuul（统一网关）、Feign（微服务之间通信）
 
@@ -92,7 +92,7 @@ CAS——单点登录认证
 
   zookeeper（分布式协调服务）、elastic-job（分布式定时任务框架）、mail（邮件服务）
 
-* 第三方服务
+* ### 第三方服务
 
   阿里云短信服务
 
