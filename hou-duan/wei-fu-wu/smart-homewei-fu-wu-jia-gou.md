@@ -8,8 +8,6 @@ Java、Maven、SpringBoot、SpringCloud、Docker、Git
 
 # 三、SmartHome物理结构
 
-
-
 # 四、SmartHome技术栈选型
 
 ## 1.SmartHome架构说明
@@ -20,7 +18,7 @@ Java、Maven、SpringBoot、SpringCloud、Docker、Git
 
 * 服务端使用SpringCloud技术栈实现微服务架构
 
-* 微服务之间使用rocketmq+mysql做消息100%可达，保证微服务持久化（rocketmq还可以提高消息吞吐量）
+* 微服务之间使用redis+mysql做消息100%可达，保证微服务持久化（redis缓存还可以提高消息吞吐量）
 
 * 统一网关API使用基于OAuth2.0的安全认证，app、web及微信使用基于JWT的安全认证
 
