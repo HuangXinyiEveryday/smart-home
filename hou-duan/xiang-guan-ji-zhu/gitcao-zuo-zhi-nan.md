@@ -13,46 +13,29 @@ ls
 id_rsa  id_rsa.pub
 ```
 
-**创建ssh**
+### **创建ssh**
 
 ```
 ssh-keygen -t rsa -C "****"//***为注释文字
-
-
 Generating public/private rsa key pair.
-
-
 Enter file in which to save the key (/c/Users/user/.ssh/id_rsa)://可以指定目录也可以不指定目录。直接回车
 
-
 Enter passphrase (empty for no passphrase):
-
-
 Enter same passphrase again://可以不输入密码，直接回车，以后每次push就不用输入密码
 
-
 Your identification has been saved in /c/Users/user/.ssh/id_rsa.
-
-
 Your public key has been saved in /c/Users/user/.ssh/id_rsa.pub.
 
-
 The key fingerprint is:
-
-
 这里是生成的key fingerprint
 
-
 The key's randomart image is:
-
-
 这里是生成的key's randomart image
-
 
 此时创建ssh成功
 ```
 
-**添加ssh到git**
+### **添加ssh到git**
 
 ```
 找到文件id_rsa.pub文件，拷贝ssh
@@ -266,6 +249,5 @@ branch-name
 >
 ```
 
-  
 
 
