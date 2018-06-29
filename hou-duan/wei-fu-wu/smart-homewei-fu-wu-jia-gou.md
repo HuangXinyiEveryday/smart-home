@@ -122,11 +122,9 @@ CAS——单点登录认证
 
 * smarthome\_usrlogin\_manager CAS服务管理，用于管理授权服务等
 
-## 4.公共模块—smarthome\_common
+## 4.公共模块—smart-home-common
 
-* smarthome\_common\_api:前后端数据传输公共接口，实现后端数据传输给前端
-
-* smarthome\_common\_getdata:数据库读取数据公共模块，实现从数据库取数据
+* 公共数据实体类
 
 ## 5.接口模块—smarthome\_api
 
