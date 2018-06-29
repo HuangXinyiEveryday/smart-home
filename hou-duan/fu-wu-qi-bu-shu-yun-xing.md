@@ -44,7 +44,7 @@ ps -ef | grep java
 sudo kill -9 <进程号>
 ```
 
-# 二、建立为docker镜像
+# 二、docker镜像运行
 
 ## 1.项目打包（同上）
 
