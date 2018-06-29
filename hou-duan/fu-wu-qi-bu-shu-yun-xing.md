@@ -76,8 +76,6 @@ $ sudo docker build -t <你的镜像名>:<tag> .
 推送到阿里云docker或docker hub，需要进行阿里云或hub注册（hub为国外服务器）
 
 参考博客：https://blog.csdn.net/ximenghappy/article/details/66971035
-
-
 https://blog.csdn.net/u013096666/article/details/76522065
 ```
 
