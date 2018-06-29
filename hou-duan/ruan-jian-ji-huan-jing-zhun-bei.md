@@ -22,5 +22,7 @@
 
 # 二、springboot测试小实例
 
+Springboot本身没有代码生成也不需要xml配置，只需要run就可以创建一个独立的、产品级别的spring应用。
 
+Springboot可以和java的开发工具（例如eclipse、intellij）也可以独立命令行使用，springboot和其他java库一样，只需要在classpath引入适当的spring-boot-\*.jar文件，就可以像java一样运行，但一般建议springboot结合maven或gradle构建工具。
 
