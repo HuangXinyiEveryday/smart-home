@@ -90,11 +90,7 @@ password 为registery密码，初始密码为阿里云密码(可以修改)
 
 ```
 推送镜像到registry
-
-
 docker tag auth-server:8762 registry.cn-hangzhou.aliyuncs.com/命名空间/仓库名:[镜像版本号]
-
-
 docker push registry.cn-hangzhou.aliyuncs.com/命名空间/仓库名:[镜像版本号]
 ```
 
