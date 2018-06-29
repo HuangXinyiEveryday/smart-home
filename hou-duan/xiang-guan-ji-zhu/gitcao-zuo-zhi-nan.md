@@ -2,7 +2,7 @@
 
 想要本地推送到远程仓库或者克隆仓库，需要ssh密钥
 
-### **查看ssh**
+## **查看ssh**
 
 ```bash
 查看电脑是否存在id_rsa.pub
@@ -13,7 +13,7 @@ ls
 id_rsa  id_rsa.pub
 ```
 
-### **创建ssh**
+## **创建ssh**
 
 ```
 ssh-keygen -t rsa -C "****"//***为注释文字
@@ -35,7 +35,7 @@ The key's randomart image is:
 此时创建ssh成功
 ```
 
-### **添加ssh到git**
+## **添加ssh到git**
 
 ```
 找到文件id_rsa.pub文件，拷贝ssh
@@ -47,42 +47,23 @@ The key's randomart image is:
 
 # 2.git常用命令
 
-**创建版本库**
+## **创建版本库**
 
 ```
 git init
 
+git add <file_name>
 
-git add 
-<
-file_name
->
-
-
-git commit -m "
-**
-*"//说明修改内容
+git commit -m "***"//说明修改内容
 ```
 
-**仓库克隆**
+## **仓库克隆**
 
 ```
-git clone 
-<
-git上面SSH/HTTP地址 
-**.git
->
+git clone <git上面SSH/HTTP地址 **.git>
 //默认是master分支
 
-
-git clone -b 
-<
-branch_name
->
-<
-git上面SSH/HTTP地址 **
-.git
->
+git clone -b <branch_name> <git上面SSH/HTTP地址 **.git>
 //克隆特定分支
 ```
 
