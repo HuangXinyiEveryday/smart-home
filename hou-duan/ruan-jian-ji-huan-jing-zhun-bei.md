@@ -56,3 +56,29 @@ parent节点使用spring-boot-starter-parent
 
 在src/main/java新建一个java文件
 
+```java
+package controller; /**
+ * Created by Song on 2017/2/15.
+ * 官方示例工程中的测试代码
+ */
+import org.springframework.boot.*;
+import org.springframework.boot.autoconfigure.*;
+import org.springframework.stereotype.*;
+import org.springframework.web.bind.annotation.*;
+@Controller
+@EnableAutoConfiguration
+public class testcontroller {
+    @RequestMapping("/")
+    @ResponseBody
+    String home() {
+        return "Hello World,this is a springboot test";
+    }
+
+    public static void main(String[] args) throws Exception {
+        SpringApplication.run(testcontroller.class, args);
+    }
+}
+```
+
+
+
