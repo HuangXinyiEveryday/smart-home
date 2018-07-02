@@ -65,9 +65,16 @@ smart-home-door-contact-service
 
 # smart-home-gps-server
 
-* 模块名：
-* 功能：
-* 调用子服务及公共方法
+* 模块名：gps吊坠信息
+* 功能：进行和吊坠gps相关的查询及操作服务
+* 调用子服务及公共方法：
+
+```
+smart-home-gps-common
+smart-home-gps-service
+.......
+```
+
 * 应用：部署到居家、社区养老机构系统平台
 
 
