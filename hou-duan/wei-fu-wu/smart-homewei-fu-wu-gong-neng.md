@@ -32,7 +32,7 @@
 
 * 模块名：swagger服务模块
 * 功能：实现前后端交互接口api
-* 应用：微服务公共门口
+* 应用：微服务公共模块
 
 # smart-home-bedroom-server
 
