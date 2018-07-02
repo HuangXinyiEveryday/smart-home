@@ -51,7 +51,16 @@ smart-home-mattress-sensor-service
 
 # smart-home-device-server
 
-* 
+* 模块名：设备数据存储模块
+* 功能：进行所有硬件设备存储功能
+* 调用子服务及公共方法
+
+```
+smart-home-device-common
+smart-home-door-contact-service
+.........
+```
+
 # smart-home-gps-server
 
 
