@@ -29,10 +29,10 @@
 
 * 调用子服务及公共方法：
 
-  ```markdown
-  smart-home-bedroom-common
-  smart-home-mattress-sensor-service
-  ```
+```markdown
+smart-home-bedroom-common
+smart-home-mattress-sensor-service
+```
 
 * 应用：可以部署到居家、社区养老机构系统平台
 
