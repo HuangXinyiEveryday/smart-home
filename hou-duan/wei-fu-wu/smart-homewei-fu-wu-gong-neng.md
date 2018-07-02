@@ -65,5 +65,10 @@ smart-home-door-contact-service
 
 # smart-home-gps-server
 
+* 模块名：
+* 功能：
+* 调用子服务及公共方法
+* 应用：部署到居家、社区养老机构系统平台
+
 
 
