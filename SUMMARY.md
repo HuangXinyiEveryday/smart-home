@@ -2,8 +2,10 @@
 
 * [Introduction](README.md)
 * [前端](chapter1.md)
-  * vue框架
+  * [vue框架](chapter1/vuekuang-jia.md)
+    * [vue搭建](chapter1/vuekuang-jia/vueda-jian.md)
   * [养老机构信息化管理平台](chapter1/yang-lao-ji-gou.md)
+  * 相关技术
 * [后端](hou-duan.md)
   * [微服务架构及功能](hou-duan/wei-fu-wu.md)
     * [概述](hou-duan/wei-fu-wu/gai-shu.md)
