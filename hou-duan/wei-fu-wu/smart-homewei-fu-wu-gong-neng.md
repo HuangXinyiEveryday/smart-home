@@ -61,6 +61,8 @@ smart-home-door-contact-service
 .........
 ```
 
+* 应用：部署到不同的平台系统中
+
 # smart-home-gps-server
 
 
