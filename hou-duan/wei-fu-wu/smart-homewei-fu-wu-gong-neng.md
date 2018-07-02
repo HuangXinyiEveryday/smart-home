@@ -1,4 +1,4 @@
-## smart-home-auth-server
+# smart-home-auth-server
 
 * 模块名：用户认证授权
 * 功能：进行用户登录、注册、授权token、认证用户权限角色
@@ -17,6 +17,10 @@
 * 应用：微服务必要模块
 
 # smart-home-common
+
+* 模块名：公共模块
+* 功能：公共的数据、常量资源、实体类
+* 应用：微服务公共模块
 
 ## smart-home-bedroom-server
 
