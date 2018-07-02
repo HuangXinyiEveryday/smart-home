@@ -31,7 +31,7 @@
 # smart-home-swagger2
 
 * 模块名：swagger服务模块
-* 功能：实现前后端交互接口api
+* 功能：实现前后端交互接口api的说明文档生成
 * 应用：微服务公共模块
 
 # smart-home-bedroom-server
