@@ -22,9 +22,10 @@
 * 功能：公共的数据、常量资源、实体类
 * 应用：微服务公共模块
 
-## smart-home-bedroom-server
+# smart-home-bedroom-server
 
 * 模块名：卧室模块
+
 * 功能：进行卧室相关睡眠监测、电灯数据等信息展示及分析
 
 * 调用子服务及公共方法：
@@ -36,7 +37,7 @@ smart-home-mattress-sensor-service
 
 * 应用：可以部署到居家、社区养老机构系统平台
 
-smart-home-device-server
+# smart-home-device-server
 
 smart-home-gps-server
 
