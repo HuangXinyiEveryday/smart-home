@@ -12,6 +12,10 @@
 
 # smart-home-zuul-gateway
 
+* 模块名：统一网关服务
+* 功能：所有外部资源访问api接口，都通过统一网关进行统一路由转发
+* 应用：微服务必要模块
+
 # smart-home-common
 
 ## smart-home-bedroom-server
