@@ -16,5 +16,7 @@
   smart-home-mattress-sensor-service
   ```
 
-应用：可以部署到居家、社区养老机构系统平台
+* 应用：可以部署到居家、社区养老机构系统平台
+
+
 
