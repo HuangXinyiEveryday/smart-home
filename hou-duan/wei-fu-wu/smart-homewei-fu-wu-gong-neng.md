@@ -51,7 +51,8 @@ smart-home-mattress-sensor-service
 
 # smart-home-device-server
 
+* 
 # smart-home-gps-server
 
-smart-home-
+
 
