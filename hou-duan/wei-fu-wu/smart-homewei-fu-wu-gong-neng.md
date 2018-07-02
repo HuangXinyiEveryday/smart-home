@@ -28,9 +28,11 @@
 * 功能：为了实现数据库缓存机制
 * 应用：微服务公共模块
 
-smart-home-swagger2
+# smart-home-swagger2
 
-
+* 模块名：swagger服务模块
+* 功能：实现前后端交互接口api
+* 应用：微服务公共门口
 
 # smart-home-bedroom-server
 
