@@ -18,5 +18,9 @@
 
 * 应用：可以部署到居家、社区养老机构系统平台
 
+smart-home-device-server
+
+smart-home-gps-server
+
 
 
