@@ -22,6 +22,16 @@
 * 功能：公共的数据、常量资源、实体类
 * 应用：微服务公共模块
 
+# smart-home-redis
+
+* 模块名：数据库缓存模块
+* 功能：为了实现数据库缓存机制
+* 应用：微服务公共模块
+
+smart-home-swagger2
+
+
+
 # smart-home-bedroom-server
 
 * 模块名：卧室模块
