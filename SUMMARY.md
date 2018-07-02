@@ -8,7 +8,7 @@
   * [微服务架构及功能](hou-duan/wei-fu-wu.md)
     * [概述](hou-duan/wei-fu-wu/gai-shu.md)
     * [smart-home微服务架构](hou-duan/wei-fu-wu/smart-homewei-fu-wu-jia-gou.md)
-    * [smart-home微服务功能](hou-duan/wei-fu-wu/smart-homewei-fu-wu-gong-neng.md)
+    * [smart-home微服务功能介绍](hou-duan/wei-fu-wu/smart-homewei-fu-wu-gong-neng.md)
   * [微服务开发](hou-duan/wei-fu-wu-kai-fa.md)
     * [软件及环境准备](hou-duan/ruan-jian-ji-huan-jing-zhun-bei.md)
     * [微服务模块介绍](hou-duan/xiang-mu-kai-fa-kuang-jia.md)
