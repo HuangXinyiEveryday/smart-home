@@ -8,3 +8,9 @@ smart-home-auth-server
 
 smart-home-bedroom-server
 
+模块名：用户认证授权
+
+功能：进行用户登录、注册、授权token、认证用户权限角色
+
+应用：可以部署到居家、社区及养老机构系统服务平台
+
