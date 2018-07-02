@@ -6,3 +6,5 @@
 
 新增资源服务公共方法 common
 
+api结果  swagger
+
