@@ -51,5 +51,19 @@ source 容器保存sql路径
 use 数据库名;
 ```
 
+#### 5.mysql清空表中所有数据
 
+```
+1.truncate table 表名//自增id重新从1开始
+2.delete from 表名//自增id从删除后的数据后继续增加
+注：原因是delete会记录数据库日志，数据可恢复；truncate不记录日志，数据不可恢复
+```
+
+#### 6.mysql增加数据获取当前时间
+
+```
+在新增表时，可以使用如下命令表示默认时间是系统时间
+使用DEFAULT CURRENT_TIMESTAMP
+ADD COLUMN  `CreateTime` datetime NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间' 
+```
 

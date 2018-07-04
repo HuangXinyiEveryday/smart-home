@@ -59,8 +59,6 @@ mended) npm
 ```
  cd my-project        //到项目目录下
  npm install     //安装依赖,不要用cnpm安装，否则会丢失很多库
-//如果需要router
-cnpm install vue-router vue-resource --save
 ```
 
 #### 运行新创建的vue项目
@@ -75,13 +73,16 @@ npm run dev
 
 ```
 cnpm install vue-router  --save  
+//如果需要resource
+cnpm install vue-router vue-resource --save
 //（--save ：安装后放在package.json 的dependencies，这样方便我们查看等）
 cnpm install vue-router@0.7.13  --save
 //使用@指定router版本
 ```
 
 ```
- "dependencies": {
+//打开项目的package.json，如下存在vue-router，表示安装依赖成功
+"dependencies": {
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
@@ -93,5 +94,80 @@ cnpm install vue-router@0.7.13  --save
 npm run dev
 ```
 
-3.引入vue-router
+# 四、使用Vue组件
+
+新增单独的vue组件，类似html新增一个页面功能
+
+### 1.一般在src/components文件夹下，存放vue组件信息
+
+新增一个vue文件
+
+<template></template>相当于html的html页面
+
+<script></script>相当于js脚本
+
+<style></style>相当于css样式
+
+```vue
+<template>
+  <div id="first">
+    <h1>标题</h1>
+    <a>作者：{{ author}}</a>
+  </div>
+</template>
+
+<script type="text/javascript">
+export default{
+  data(){
+    return{
+      author:"hxy"
+    }
+  }
+}
+</script>
+<style>
+</style>
+```
+
+### 2.修改App.vue(类似html的统一入口)
+
+```vue
+<template>
+  <div id="app">
+    <img src="./assets/logo.png">
+    <first/>//自己新增的vue，在脚本中impor导入
+  </div>
+</template>
+
+<script>
+import first from './components/first.vue'
+export default {
+  name: 'App',
+  data(){
+    return {
+    　　　　　　msg: 'Welcome to Your Vue.js App'
+    　　　　}
+  },
+  components: {
+    first
+  }
+}
+</script>
+```
+
+这样就可以执行一个自己写的first网站了
+
+# 五、使用vue-router
+
+```
+cnpm install vue-router --save
+```
+
+​	--save 可以理解成生产环境，会把依赖包名称添加到 package.json 文件 dependencies 键下，dependencies是运行时依赖。
+
+　　--save-dev 则是开发环境， 添加到 package.json 文件 devDependencies 键下，devDependencies是开发时的依赖，如生产时不需要用到压缩库应该安装到devDependencies 。
+
+### 1.在src目录下新增view文件夹
+
+新增view1、view2两个vue文件
 
