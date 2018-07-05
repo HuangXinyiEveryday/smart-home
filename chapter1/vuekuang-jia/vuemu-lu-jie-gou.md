@@ -1,4 +1,4 @@
-```
+```markdown
 ├── README.md                       项目介绍
 ├── index.html                      入口页面
 ├── build                           构建脚本目录
