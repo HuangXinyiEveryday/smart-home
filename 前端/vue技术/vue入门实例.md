@@ -92,15 +92,15 @@ cnpm install vue-router --save
 </style>
 ```
 
-### 2.在src目录下新增router.js文件
+### 2.在src目录下新增routes文件夹，新增router.js文件
 
 ```js
 import Vue from 'vue'
 import Router from 'vue-router'
 //引入子组件到路由
-import doorcontact from './views/doorcontact.vue'
-import gps from './views/gps.vue'
-import mattress from './views/mattress.vue'
+import doorcontact from '../views/doorcontact.vue'
+import gps from '../views/gps.vue'
+import mattress from '../views/mattress.vue'
 
 Vue.config.productionTip = false
 Vue.use(Router)
@@ -131,7 +131,7 @@ export default router;
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
-import router from './router.js'
+import router from './routes/router.js'
 
 new Vue({
     el:'#app',
@@ -171,22 +171,34 @@ router-view渲染路由的视图
 
 # 三、添加ajax请求（使用axios插件）
 
-### 1.安装axios，通过cd进入项目工程目录
+### 1.安装axios
+
+通过cd进入项目工程目录
 
 ```
 sudo npm instal axios
 ```
 
-### 2.在main.js中引入axios，将vue组件的原型改成axios，添加如下代码
+### 2.新增axiosConfig.js
+
+在src文件夹下新增axios文件夹，在该文件下新增文件
+
+```
+
+```
+
+### 3.修改main.js
+
+在文件中引入axios，将vue组件的原型改成axios，添加如下代码
 
 ```
 import axios from 'axios'
 Vue.prototype.$http = axios/Vue.prototype.$ajax=axios
 ```
 
-### 3.在组件中使用ajax方法
+### 4.在组件中使用ajax方法
 
-在main.js添加后，可以直接在组件的methods中使用$http/ajax命令，以床垫mattress.vue为例
+在main.js添加后，可以直接在vue组件中methods中使用ajax方法
 
 ```
 
