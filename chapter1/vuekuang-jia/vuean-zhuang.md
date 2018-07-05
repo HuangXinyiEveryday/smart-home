@@ -66,6 +66,51 @@ vue init webpack-simple my-project
 npm run dev
 ```
 
+## 三、为项目新增vue-router依赖
+
+1.进入第二步创建的项目文件，使用npm下载安装vue-router
+
+```
+cnpm install vue-router  --save 
+
+
+//如果需要resource
+
+
+cnpm install vue-router vue-resource --save
+
+
+//（--save ：安装后放在package.json 的dependencies，这样方便我们查看等）
+
+
+cnpm install vue-router@0.7.13  --save
+
+
+//使用@指定router版本
+```
+
+```
+//打开项目的package.json，如下存在vue-router，表示安装依赖成功
+
+
+"dependencies": {
+
+
+  "vue": "^2.5.2",
+
+
+  "vue-router": "^3.0.1"
+
+
+  },
+```
+
+2.测试一下，页面localhost:8080测试
+
+```
+npm run dev
+```
+
   
 
 
