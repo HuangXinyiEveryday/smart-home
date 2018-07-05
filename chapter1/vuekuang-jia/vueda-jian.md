@@ -167,7 +167,124 @@ cnpm install vue-router --save
 
 　　--save-dev 则是开发环境， 添加到 package.json 文件 devDependencies 键下，devDependencies是开发时的依赖，如生产时不需要用到压缩库应该安装到devDependencies 。
 
-### 1.在src目录下新增view文件夹
+### 1.在src目录下新增views文件夹
 
-新增view1、view2两个vue文件
+新增gps、mattress、doorcontact三个vue文件，其中举例：mattress.vue
+
+```vue
+<template>
+    <div >
+        <h1>床垫数据获取演示</h1>
+        <a> 床垫数据获取演示 </a>
+    </div>
+</template>
+
+<script type="text/javascript">
+    export default {
+        name: 'mattress',
+    }
+</script>
+<style>
+</style>
+```
+
+### 2.在src目录下新增router.js文件
+
+```js
+import Vue from 'vue'
+import Router from 'vue-router'
+//引入子组件到路由
+import doorcontact from './views/doorcontact.vue'
+import gps from './views/gps.vue'
+import mattress from './views/mattress.vue'
+
+Vue.config.productionTip = false
+Vue.use(Router)
+const router=new Router({
+    // 路由配置
+    routes: [
+    {
+      //路径url
+        path: '/doorcontact',
+        component: doorcontact
+    }, {
+        path: '/gps',
+        component: gps
+    }, {
+        path: '/mattress',
+        component: mattress
+    }
+    ]
+})
+export default router;
+
+```
+
+### 3.使用router，修改src下的main.js，引入router并指定当前vue实例
+
+```js
+// The Vue build version to load with the `import` command
+// (runtime-only or standalone) has been set in webpack.base.conf with an alias.
+import Vue from 'vue'
+import App from './App'
+import router from './router.js'
+
+new Vue({
+    el:'#app',
+    router,
+    render: h => h(App)
+})
+
+```
+
+### 4.**添加路由链接和出口。**修改App.vue<template>添加链接和出口。
+
+```vue
+<template>
+  <div id="app">
+    <img src="./assets/logo.png">
+    <first/>
+    <div>
+      <router-link to="/gps">gps数据获取演示</router-link>
+      <br>
+      <router-link to="/mattress">床垫数据获取演示</router-link>
+      <br>
+      <router-link to="/doorcontact">门磁数据获取演示 </router-link>
+      <br>
+    </div>
+    <!-- 路由出口 -->
+    <!-- 路由匹配到的组件将渲染在这里 -->
+    <router-view></router-view>
+  </div>
+</template>
+```
+
+注意：vue里面只能有一个大的div，所有div都只能在大的div里面，不能并列
+
+router-link是router路由
+
+router-view渲染路由的视图
+
+# 六、添加ajax请求（使用axios插件）
+
+### 1.安装axios，通过cd进入项目工程目录
+
+```
+sudo npm instal axios
+```
+
+### 2.在main.js中引入axios，将vue组件的原型改成axios，添加如下代码
+
+```
+import axios from 'axios'
+Vue.prototype.$http = axios/Vue.prototype.$ajax=axios
+```
+
+### 3.在组件中使用ajax方法
+
+在main.js添加后，可以直接在组件的methods中使用$http/ajax命令，以床垫mattress.vue为例
+
+```
+
+```
 
