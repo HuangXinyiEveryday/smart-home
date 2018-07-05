@@ -26,5 +26,35 @@ sudo cnpm install --global vue-cli
 
 #### 在某个目录下，创建一个基于webpack模板的新项目
 
+```
+vue init webpack my-project
+vue init webpack-simple my-project
+
+//my-project是你的项目名
+//webpack-simple为构建精简的webpack项目
+```
+
+```
+不应用ESLint
+创建webpack模板项目时，如果你对ES6和ESLint不是很熟的话我个人不建议你应用它
+因为要求比较严格，所以一不小心就报错，导致整个项目运行不起来，对于初学很痛苦。 可以参考以下进行选择
+```
+
+    ? Project name test
+    ? Project description A Vue.js project
+    ? Author test
+    ? Vue build standalone
+    ? Install vue-router? Yes
+    ? Use ESLint to lint your code? No
+    ? Set up unit tests Yes
+    ? Pick a test runner jest
+    ? Setup e2e tests with Nightwatch? Yes
+    ? Should we run `npm install` for you after the project has been created? (recommended) npm
+
+  
+
+
+
+
 
 
