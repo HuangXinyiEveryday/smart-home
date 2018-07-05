@@ -51,10 +51,21 @@ vue init webpack-simple my-project
     ? Setup e2e tests with Nightwatch? Yes
     ? Should we run `npm install` for you after the project has been created? (recommended) npm
 
+#### 安装依赖
+
+```
+ cd my-project 
+  //到项目目录下
+ npm install 
+ //安装依赖,不要用cnpm安装，否则会丢失很多库
+```
+
+#### 运行新创建的vue项目
+
+```
+npm run dev
+```
+
   
-
-
-
-
 
 
