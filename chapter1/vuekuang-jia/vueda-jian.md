@@ -33,8 +33,6 @@ vue init webpack-simple my-project
 //webpack-simple为构建精简的webpack项目
 ```
 
-
-
 ```
 不应用ESLint
 创建webpack模板项目时，如果你对ES6和ESLint不是很熟的话我个人不建议你应用它，因为要求比较严格，所以一不小心就报错，导致整个项目运行不起来，对于初学很痛苦。 可以参考以下进行选择
