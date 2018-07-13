@@ -171,6 +171,10 @@ router-view渲染路由的视图
 
 # 三、添加ajax请求（使用axios插件）
 
+vue使用router-link，进行页面路由时，axios请求不是在子组件执行，而是在父组件加载完毕后就执行了所有axios请求并获得结果。
+
+因为app.vue父组件使用router-link，相当于包含组件，引入模块的用途，所以需要在使用时，灵活使用。
+
 ### 1.安装axios
 
 通过cd进入项目工程目录
@@ -181,26 +185,91 @@ sudo npm instal axios
 
 ### 2.新增axiosConfig.js
 
-在src文件夹下新增axios文件夹，在该文件下新增文件
+在src文件夹下新增axios文件夹，在该文件下新增文件进行ajax的公共配置
 
-```
-
-```
-
-### 3.修改main.js
-
-在文件中引入axios，将vue组件的原型改成axios，添加如下代码
-
-```
+```js
+/**
+ * ajax请求配置
+ */
 import axios from 'axios'
-Vue.prototype.$http = axios/Vue.prototype.$ajax=axios
+/**
+ * axios实例化默认配置
+ */
+const Axios = axios.create({
+   timeout: 10000,               // 请求超时时间
+})
+
+// 添加请求拦截器
+Axios.interceptors.request.use(function (config) {
+    // 在发送请求之前做些什么
+    return config;
+  }, function (error) {
+    // 对请求错误做些什么
+    return Promise.reject(error);
+  });
+
+// 添加响应拦截器
+Axios.interceptors.response.use(function (response) {
+    // 对响应数据做点什么
+    return response;
+}, function (error) {
+    // 对响应错误做点什么
+    return Promise.reject(error);
+});
+ // 最后暴露实例
+export default Axios
 ```
 
-### 4.在组件中使用ajax方法
+### 3.允许前端跨域
 
-在main.js添加后，可以直接在vue组件中methods中使用ajax方法
+在config文件夹下index.js文件，修改proxyTable
 
+```js
+  proxyTable: {
+      '/api': {
+      target: 'http://192.168.85.208:9000/',//设置你调用的接口域名和端口号
+      changeOrigin: true,     //跨域
+      pathRewrite: {
+        '^/api': '/'          //这里理解成用‘/api’代替target里面的地址，后面组件中我们掉接口时直接用api代替 比如我要调用'http://192.168.95.208:9000/xxx/duty?time=2017-07-07 14:57:22'，直接写‘/api/xxx/duty?time=2017-07-07 14:57:22’即可
+      }
 ```
 
+### 4.axios中response返回结构
+
+### 5.在组件中使用ajax方法
+
+可以直接在vue组件中methods中使用ajax方法
+
+```
+//引入配置的axios文件
+import ajax from '../axios/axiosConfig.js'
+    export default {
+        name: 'gps',
+}
+ajax({
+//api为第三步config中index.js跨域设置的api，只有使用该api才可以进行跨域访问
+  url:'/api/gps-server/DeviceGps/191',
+  method:'GET',
+  params:{access_token:'7fb76b82-45d4-4d0f-b35d-aab08591eee7'}
+}).then(function(response){
+//返回结果
+var  tmp=response.data.data;
+  alert(tmp.id);
+});
+```
+
+注：因为response返回数据结构为data接收后端返回数据，后端返回中结构参见前后端接口url，所以需要response.data.data才能找到最终后端返回的数据
+
+```
+//返回数据结构
+{
+  "code": 0,
+  "data": {
+    "id": 0,
+    "latitude": "string",
+    "longitude": "string"
+  },
+  "msg": "成功"
+}
 ```
 
