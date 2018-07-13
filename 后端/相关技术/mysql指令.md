@@ -64,6 +64,7 @@ use 数据库名;
 ```
 在新增表时，可以使用如下命令表示默认时间是系统时间
 使用DEFAULT CURRENT_TIMESTAMP
+数据库中datatime也是timestamp类型
 ADD COLUMN  `CreateTime` datetime NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间' 
 ```
 

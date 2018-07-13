@@ -34,13 +34,13 @@ scp DoorContact20180625.sql smarthome@192.168.85.208:/tmp
 
 ```
 iptables直接打开端口
-iptables -I INPUT -p tcp --dport 8000 -j ACCEPT
+sudo iptables -I INPUT -p tcp --dport 9000 -j ACCEPT
 
 保存
 iptables save
 
 重启服务
-service iptables restart
+sudo service iptables restart
 
 查看需要打开的端口是否生效
 iptables status
