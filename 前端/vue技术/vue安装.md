@@ -27,8 +27,8 @@ sudo cnpm install --global vue-cli
 #### 在某个目录下，创建一个基于webpack模板的新项目
 
 ```
-vue init webpack my-project
-vue init webpack-simple my-project
+sudo vue init webpack my-project
+sudo vue init webpack-simple my-project
 
 //my-project是你的项目名
 //webpack-simple为构建精简的webpack项目

@@ -52,6 +52,8 @@ sudo vim /etc/sysconfig/iptables
 
 键盘输入i，插入
 -A INPUT -p tcp -m tcp --dport 4000 -j ACCEPT
+-A INPUT -P tcp -m tcp --dport 9000 -j ACCEPT
+-A INPUT -P tcp -m tcp --dport 5858 -j ACCEPT
 
 esc退出 输入:wq!保存
 
